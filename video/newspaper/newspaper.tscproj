@@ -1,0 +1,298 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoPlaybackRate" : 30,
+  "audioPlaybackRate" : 44100,
+  "width" : 1920.0,
+  "height" : 1080.0,
+  "version" : "3.0",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Windows",
+    "version" : "19.0"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "C:\\Users\\Олег\\Documents\\Camtasia\\Rec 05-23-24_014.trec",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20240523T134028",
+      "sourceTracks" : [
+        {
+          "range" : [0, 473],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 29,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : "Rec 05-23-24_014.trec;"
+        },
+        {
+          "range" : [0, 694272],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "integratedLUFS" : -1.79769313486232e+308,
+          "peakLevel" : 0.0,
+          "metaData" : ""
+        }
+      ]
+    }
+  ],
+  "timeline" : {
+    "id" : 2,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "duration" : 14.4666666666667,
+          "title" : "",
+          "type" : "",
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 3,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 4,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 05-23-24_014"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 434,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 434,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 5,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 1,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 434,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 434,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 0,
+                    "duration" : 434,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 472,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 6,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "remix",
+                      "shape" : "text-rectangle",
+                      "style" : "basic",
+                      "fill-color-blue" : 1.0,
+                      "fill-color-green" : 1.0,
+                      "fill-color-opacity" : 1.0,
+                      "fill-color-red" : 1.0,
+                      "height" : 150.0,
+                      "line-spacing" : 0.0,
+                      "stroke-color-blue" : 0.56078431372549,
+                      "stroke-color-green" : 0.686274509803922,
+                      "stroke-color-opacity" : 1.0,
+                      "stroke-color-red" : 0.0196078431372549,
+                      "stroke-width" : 2.0,
+                      "tail-x" : -399.999999999763,
+                      "tail-y" : -20.0,
+                      "width" : 1149.99999999953,
+                      "word-wrap" : 1.0,
+                      "fill-style" : "solid",
+                      "horizontal-alignment" : "center",
+                      "stroke-style" : "solid",
+                      "text" : "Перевёрстка вордпресс шаблона внешне 1 в 1, с той разницей что там был конструктор, тут чистый код",
+                      "vertical-alignment" : "center",
+                      "font" : {
+                        "color-blue" : 0.266666666666667,
+                        "color-green" : 0.231372549019608,
+                        "color-opacity" : 1.0,
+                        "color-red" : 0.184313725490196,
+                        "size" : 64.0,
+                        "tracking" : 0.0,
+                        "name" : "Montserrat",
+                        "weight" : "Regular"
+                      },
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "endTime" : 0,
+                            "time" : 0,
+                            "value" : [{"name":"kerning","rangeEnd":176,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fgColor","rangeEnd":176,"rangeStart":0,"value":"(47,59,68,255)","valueType":"color"},{"name":"underline","rangeEnd":176,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":176,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":176,"rangeStart":0,"value":64,"valueType":"double"},{"name":"fontItalic","rangeEnd":176,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":176,"rangeStart":0,"value":"Calibri","valueType":"string"},{"name":"fontWeight","rangeEnd":176,"rangeStart":0,"value":400,"valueType":"int"}],
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -1.46513912113733e-10,
+                      "translation1" : -464.999999999899
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 150,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 150,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-HAlign" : "center",
+                      "default-LineSpace" : 0.0,
+                      "default-VAlign" : "center",
+                      "default-text-attributes" : null,
+                      "default-translation0" : 363.265306122308,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 64,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "C:\\Users\\Олег\\AppData\\Local\\TechSmith\\Camtasia Studio\\19.0\\Auto-Saves\\mitraseptin1a0cbb5.autosave.tscproj",
+    "CanvasZoom" : 49,
+    "Date" : "2024-05-23 02:15:18 PM",
+    "IsAutoSave" : "0",
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "Title" : "newspaper",
+    "audioNarrationNotes" : "",
+    "calloutStyle" : "Basic",
+    "canvasDetached" : "False",
+    "canvasPositionHeight" : "0",
+    "canvasPositionLeft" : "0",
+    "canvasPositionTop" : "0",
+    "canvasPositionWidth" : "0"
+  }
+}

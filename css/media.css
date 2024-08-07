@@ -1,0 +1,138 @@
+@media screen and (max-width: 1020px) {
+	.header_wrapper{
+		display: none;
+	}
+	.mobile_header{
+		display: flex;
+	}
+	.mobile_menu_popup{
+		display: block;
+	}
+	.popup_slider_slides{
+		width: 120px;
+	}
+	.popup_slider_content{
+		width: 120px;
+		overflow: scroll;
+	}
+	.popup_slider_lenta a{
+		width: 120px;
+		height: 120px;
+	}
+	.popup_slider_lenta a>img{
+		width: 120px;
+	}
+	.popup_full_slide, .popup_full_slide .knopki{
+		width: calc(100% - 240px);
+	}
+	.popup_slider_slides .slide_up, .popup_slider_slides .slide_down{
+		display: none;
+	}
+	.main, .sites{
+		height: calc(100vh - 60px);
+	}
+}
+@media screen and (max-width: 920px){
+	.main_content .main_menu{
+		display: none;
+	}
+	footer .wrapper{
+		flex-direction: column;
+	}
+	.sites_bg, .sites_bg_color{
+		height: calc(100% + 850px);
+	}
+	footer .left, footer .center{
+		margin-bottom: 50px;
+	}
+} 
+@media screen and (max-width: 660px){
+	.main_content_content h1{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 480px){
+	footer .left{
+		width: 100%;
+	}
+	.main_content_content{
+		margin-top: 0;
+	}
+	.main_content_content h1{
+		margin-bottom: 40px;
+	}
+	.main_content_content p{
+		font-size: 18px;
+	    line-height: 26px;
+	    margin-top: 14px;
+	}
+}
+@media screen and (max-height: 700px){
+	.main_content{
+		padding-top: 80px;
+	}
+}
+@media screen and (max-height: 600px){
+	.main_content_content{
+		margin-top: 0;
+	}
+	.main_content_content h1{
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+}
+@media screen and (max-height: 460px){
+	.main_content{
+		padding-top: 40px;
+	}
+	.main_content_content h1{
+		font-size: 32px;
+	}
+	.main_content_content p{
+		font-size: 16px;
+	    line-height: 23px;
+	    margin-top: 10px;
+	}
+}
+@media screen and (orientation: portrait){ 				/* Вертикальные экраны */
+	.popup_slider{
+		flex-direction: column;
+	}
+	.popup_slider_slides{
+		width: 100%;
+	}
+	.popup_slider_content{
+		width: 100%;
+		height: 120px;
+		overflow: scroll;
+	}
+	.popup_slider_lenta{
+		display: flex;
+		width: max-content;
+		top: 0;
+	}
+	.popup_slider_lenta a{
+		width: 120px;
+		height: 120px;
+		margin: 0 2px;
+	}
+	.popup_slider_lenta a>img{
+		width: 120px;
+	}
+	.popup_full_slide{
+		width: 100%;
+		height: calc(100vh - 240px);
+	}
+	.popup_slider_lenta a .slide_bg img{
+		width: 60px;
+	}
+	.popup_slider_slides .slide_up, .popup_slider_slides .slide_down{
+		display: none;
+	}
+	.popup_full_slide .knopki{
+		width: 100%;
+	}
+	.main, .sites{
+		height: calc(100vh - 60px);
+	}
+}

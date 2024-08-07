@@ -1,0 +1,21 @@
+body{
+	font-family: "Raleway", sans-serif;
+}
+.content{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 50px;
+	line-height: 75px;
+	color: #36bc99;
+}
+h2{
+	font-size: 30px;
+	line-height: 45px;
+	color: #36bc99;
+}
+p{
+	font-size: 18px;
+	line-height: 27px;
+}
